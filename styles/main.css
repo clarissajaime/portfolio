@@ -10,7 +10,13 @@ body {
 	font-family: "adobe-caslon-pro", "serif";
 }
 
+li {
+	text-decoration: none;
+}
 
+p {
+	opacity: 0;
+}
 /*
 
 header block
@@ -67,16 +73,28 @@ portfolio block
 .portfolio__example {
 	padding: 20%;
 	margin: 0;
-	text-align: center;
-	font-size: 26px;
 	line-height: 1;
 	font-family: "adobe-caslon-pro", "serif";
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	background-color: rgba(0, 0, 0, 0.5);
-	opacity: 1;
-	height: 300px;
+	height: 350px;
+}
+
+.overlay {  
+	background:rgba(0,0,0,.6);
+	text-align:center;
+	padding:45px 0 66px 0;
+	opacity:0;
+	height: 350px;
+	width: 100%;
+	-webkit-transition: opacity .30s ease;
+	-moz-transition: opacity .25s ease;
+}
+
+.portfolio__example:hover .overlay {
+	opacity:1;
 }
 
 .portfolio__example--img1 {
