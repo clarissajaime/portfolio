@@ -3,7 +3,7 @@
 
 $(document).ready(function() {
 	var animate = function(el) {
-	    el.delay(200).animate({opacity:1, left:0},'slow'); 
+	    el.delay(100).animate({opacity:1, left:0},'slow'); 
 	 
 	    // $('.blogs').find('img').delay(2000).animate({
 	    //         opacity: 1, 
@@ -20,9 +20,36 @@ $(document).ready(function() {
 
    	$(window).scroll(function() {
    		if ($(window).scrollTop() > 400) {
-   			animate($('.wrapper').find('p'));
-   		}
+   			animate($('.portfolio__introduction').find('p'));
+   		}; 
+
+   		if ($(window).scrollTop() > 500) {
+   			animate($('.portfolio__title').find('h3'));
+   		}; 
+
+   		if ($(window).scrollTop() > 700) {
+   			animate($('.portfolio__example--img1'));
+   		};
+
+   		if ($(window).scrollTop() > 800) {
+   			animate($('.portfolio__example--img2'));
+   		};
+
+   		if ($(window).scrollTop() > 900) {
+   			animate($('.portfolio__example--img3'));
+   		};
+
+   		if ($(window).scrollTop() > 1000) {
+   			animate($('.portfolio__example--img4'));
+   		};
+
+   		if ($(window).scrollTop() > 1200) {
+   			animate($('.footer__contact').find('h5'));
+   		};
+
    	});
+
+
 
 
    	

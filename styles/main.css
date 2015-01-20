@@ -17,6 +17,13 @@ li {
 p {
 	opacity: 0;
 }
+
+h3 {
+	opacity: 0;
+}
+
+
+
 /*
 
 header block
@@ -63,7 +70,7 @@ portfolio block
 
 .portfolio__title {
 	padding: 100px 0;
-	margin: 0;
+	margin-bottom: 3rem;
 	text-align: center;
 	font-size: 26px;
 	line-height: 1;
@@ -80,6 +87,8 @@ portfolio block
 	background-size: cover;
 	background-color: rgba(0, 0, 0, 0.5);
 	height: 350px;
+
+	opacity: 0;
 }
 
 .overlay {  
