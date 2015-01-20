@@ -18,7 +18,7 @@ $(document).ready(function() {
 	    // );
 	};
 
-   	$(window).scroll(function() {
+   		$(window).scroll(function() {
    		if ($(window).scrollTop() > 400) {
    			animate($('.portfolio__introduction').find('p'));
    		}; 
@@ -44,8 +44,22 @@ $(document).ready(function() {
    		};
 
    		if ($(window).scrollTop() > 1200) {
-   			animate($('.footer__contact').find('h5'));
+   			animate($('.footer__contact').find('h3'));
    		};
+
+   		if ($(window).scrollTop() > 1300) {
+   			animate($('.footer__contact').find('p'));
+   		};
+
+   		if ($(window).scrollTop() > 1550) {
+   			animate($('.footer__social--links').find('li'));
+   		};
+
+		if ($(window).scrollTop() > 1700) {
+   			animate($('.footer__social').find('p'));
+   		};
+
+
 
    	});
 
