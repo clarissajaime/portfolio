@@ -19,6 +19,10 @@ $(document).ready(function() {
 	};
 
    		$(window).scroll(function() {
+   		if ($(window).scrollTop() > 300) {
+   			animate($('.portfolio__introduction').find('h3'));
+   		}; 
+
    		if ($(window).scrollTop() > 400) {
    			animate($('.portfolio__introduction').find('p'));
    		}; 

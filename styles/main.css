@@ -21,6 +21,13 @@ p {
 
 h3 {
 	opacity: 0;
+	font-style: bold;
+	text-transform: uppercase;
+	line-height: .4;
+	font-size: 1.2rem;
+	margin-top: 3rem;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
 }
 
 li {
@@ -45,40 +52,65 @@ header block
 */
 
 .header {
-	background-image: url("../assets/images/header-image-bike.jpeg");
+	background-image: url("../assets/images/herobw.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	padding: 50%;
-	height: 35rem;
+	height: 40rem;
 }
 
 .header--overlay {  
-	background:rgba(0,0,0,.6);
+	background:rgba(0,0,0,.8);
 	text-align:center;
 	padding:45px 0 66px 0;
 	opacity:1;
 	width: 100%;
-	height: 100%;
+	height: 100%;;
+/*	background-image: url("../assets/images/footer.svg");
+	background-repeat: repeat;
+	background-position: center center;
+	background-size: cover;*/
 	-webkit-transition: opacity .30s ease;
-	-moz-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease
 }
 
 .header__title {
-	font-size: 3rem;
-	font-family: "adobe-caslon-pro", "serif";
 	position: absolute;
-	height: 80px;
-	line-height: 80px;
 	left: 0;
 	width: 100%;
 	text-align: center;
-	opacity: 1;
+	opacity: .9;
 	color: white;
-	margin: 0 auto; 
+	padding-top: 10rem;
 }
 
+.header__title--logo {
+	padding-bottom: 2rem;
+	opacity: .9;
+}
 
+.header__title--name {
+	font-weight: 100;
+	font-style: normal;
+	text-transform: uppercase;
+	line-height: .4;
+	font-size: 1.6rem;
+}
+
+.header__title--tagline {
+	-webkit-font-smoothing: antialiased;
+	color: rgb(182, 160, 87);
+	cursor: default;
+	display: inline;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: normal;
+	height: auto;
+	line-height: 16px;
+	text-align: right;
+	width: auto;
+}
 
 /*
 
@@ -87,22 +119,47 @@ portfolio block
 */
 
 .portfolio__introduction {
-	font-size: 2rem;
-	width: 100%;
-	margin: 0 auto;
-	line-height: 1.4;
-	margin-bottom: 40px;
-	text-align: center;
-	background-color: #f5f5f3
+	background-color: #f5f5f3;
 }
 
+.portfolio__introduction--secondtitle {
+	text-align: left;
+}
+
+.portfolio__introduction--body {
+	color: rgb(85, 84, 84);
+	cursor: default;
+	display: block;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	height: 113px;
+	line-height: 28.7999992370605px;
+	margin-bottom: 1rem;
+}
+
+.portfolio__introduction--img {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+/*	border: 1px solid #1e1e1d;*/
+	border-radius: 50%;
+/*	box-shadow: 0 0 6px 0 #181818;*/
+	display: block;
+	height: 200px;
+	margin: 0 auto 20px auto;
+	position: relative;
+	width: 200px;
+}
+
+
 .portfolio__title {
-	padding: 100px 0;
+/*	padding: 100px 0;
 	margin-bottom: 3rem;
 	text-align: center;
 	font-size: 26px;
 	line-height: 1;
-	font-family: "adobe-caslon-pro", "serif";
+	font-family: "adobe-caslon-pro", "serif";*/
 }
 
 .portfolio__example {
@@ -168,6 +225,10 @@ footer block
 	background-color: #040404;
 	color: white;
 	margin-top: 5rem;
+	background-image: url("../assets/images/footer.svg");
+	background-repeat: repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
 .footer__social--github {
