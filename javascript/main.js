@@ -23,43 +23,43 @@ $(document).ready(function() {
    			animate($('.portfolio__introduction').find('h3'));
    		}; 
 
-   		if ($(window).scrollTop() > 400) {
+   		if ($(window).scrollTop() > 500) {
    			animate($('.portfolio__introduction').find('p'));
    		}; 
 
-   		if ($(window).scrollTop() > 500) {
+   		if ($(window).scrollTop() > 700) {
    			animate($('.portfolio__title').find('h3'));
    		}; 
 
-   		if ($(window).scrollTop() > 700) {
+   		if ($(window).scrollTop() > 900) {
    			animate($('.portfolio__example--img1'));
    		};
 
-   		if ($(window).scrollTop() > 800) {
+   		if ($(window).scrollTop() > 1100) {
    			animate($('.portfolio__example--img2'));
    		};
 
-   		if ($(window).scrollTop() > 900) {
+   		if ($(window).scrollTop() > 1300) {
    			animate($('.portfolio__example--img3'));
    		};
 
-   		if ($(window).scrollTop() > 1000) {
+   		if ($(window).scrollTop() > 1400) {
    			animate($('.portfolio__example--img4'));
    		};
 
-   		if ($(window).scrollTop() > 1200) {
+   		if ($(window).scrollTop() > 1500) {
    			animate($('.footer__contact').find('h3'));
    		};
 
-   		if ($(window).scrollTop() > 1300) {
-   			animate($('.footer__contact').find('p'));
+   		if ($(window).scrollTop() > 1600) {
+   			animate($('.footer__contact').find('a'));
    		};
 
-   		if ($(window).scrollTop() > 1550) {
+   		if ($(window).scrollTop() > 1750) {
    			animate($('.footer__social--links').find('li'));
    		};
 
-		if ($(window).scrollTop() > 1700) {
+		if ($(window).scrollTop() > 1800) {
    			animate($('.footer__social').find('p'));
    		};
 

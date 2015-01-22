@@ -25,7 +25,8 @@ h3 {
 	text-transform: uppercase;
 	line-height: .4;
 	font-size: 1.2rem;
-	margin-top: 3rem;
+	margin-top: 6rem;
+	margin-bottom: 3rem;
 	text-align: center;
 	-webkit-font-smoothing: antialiased;
 }
@@ -122,8 +123,8 @@ portfolio block
 	background-color: #f5f5f3;
 }
 
-.portfolio__introduction--secondtitle {
-	text-align: left;
+.portfolio__title {
+	margin-bottom: 3rem;
 }
 
 .portfolio__introduction--body {
@@ -133,9 +134,8 @@ portfolio block
 	font-size: 18px;
 	font-style: normal;
 	font-weight: normal;
-	height: 113px;
 	line-height: 28.7999992370605px;
-	margin-bottom: 1rem;
+	margin-top: .5rem;
 }
 
 .portfolio__introduction--img {
@@ -147,19 +147,9 @@ portfolio block
 /*	box-shadow: 0 0 6px 0 #181818;*/
 	display: block;
 	height: 200px;
-	margin: 0 auto 20px auto;
+	margin: 0 auto 6rem auto;
 	position: relative;
 	width: 200px;
-}
-
-
-.portfolio__title {
-/*	padding: 100px 0;
-	margin-bottom: 3rem;
-	text-align: center;
-	font-size: 26px;
-	line-height: 1;
-	font-family: "adobe-caslon-pro", "serif";*/
 }
 
 .portfolio__example {
@@ -208,6 +198,7 @@ footer block
 	overflow: hidden;
 	text-align: center;
 	margin: 0;
+	background-color: #f5f5f3;
 }
 
 .footer__contact {
@@ -220,6 +211,30 @@ footer block
 	font-family: "adobe-caslon-pro", "serif";
 }
 
+.footer__contact--button {
+	-webkit-appearance: none;
+	height: 40px;
+	line-height: 40px;
+	min-width: 120px;
+	background-color: #000;
+	text-align: center;
+	border-radius: 3px;
+	color: #f7f7f7;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 11px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	border: 1px solid transparent;
+	-webkit-transition: color 0.5s, box-shadow 0.2s, border-color 0.2s;
+	-moz-transition: color 0.5s, box-shadow 0.2s, border-color 0.2s;
+	transition: color 0.5s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.footer__contact--button:hover {
+	background-color: rgb(182, 160, 87);
+}
 
 .footer__social {
 	background-color: #040404;
