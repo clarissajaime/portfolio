@@ -146,7 +146,7 @@ portfolio block
 	font-weight: normal;
 	line-height: 28.7999992370605px;
 	margin-top: .5rem;
-	padding: 0 3rem;
+	padding: 0 12rem;
 	text-align: justify;
 }
 
@@ -214,19 +214,19 @@ portfolio block
 }
 
 .portfolio__example--img1 {
-	background-image: url("../assets/images/dkny-placeholder-image.jpg");
+	background-image: url("../assets/images/photographer.png");
 }
 
 .portfolio__example--img2 {
-	background-image: url("../assets/images/cocktail.jpg");
+	background-image: url("../assets/images/cocktail.png");
 }
 
 .portfolio__example--img3 {
-	background-image: url("../assets/images/born-placeholder-image.jpg");
+	background-image: url("../assets/images/header-image-bike.png");
 }
 
 .portfolio__example--img4 {
-	background-image: url("../assets/images/header-image-bike.jpeg");
+	background-image: url("../assets/images/startup.png");
 }
 
 /*
