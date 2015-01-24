@@ -146,7 +146,7 @@ portfolio block
 	font-weight: normal;
 	line-height: 28.7999992370605px;
 	margin-top: .5rem;
-	padding: 0 12rem;
+	padding: 0 15%;
 	text-align: justify;
 }
 
@@ -179,6 +179,7 @@ portfolio block
 
 .portfolio__example--title {
 	padding: 0 0 0 2rem !important;
+	line-height: 10%;
 }
 
 .portfolio__example--description {
@@ -186,11 +187,11 @@ portfolio block
 	color: rgb(182, 160, 87);
 	cursor: default;
 	display: inline;
-	font-size: 16px;
+	font-size: 1rem;
 	font-style: italic;
 	font-weight: normal;
 	height: auto;
-	line-height: 16px;
+	line-height: 1rem;
 	text-align: right;
 	width: auto;
 	padding: 0 0 0 2rem !important;
@@ -203,7 +204,7 @@ portfolio block
 	font-weight: 100;
 	font-style: normal;
 	text-transform: uppercase;
-	line-height: .4;
+	line-height: 4%;
 	font-size: 3rem;
 	color: #fff;
 	text-align: left;
